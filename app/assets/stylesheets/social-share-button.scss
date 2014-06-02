@@ -1,5 +1,11 @@
 /*
 
+*= require font-awesome.min
+
+*/
+
+/*
+
         Creating a sprite from following images:
 
         app/assets/images/sprites/social-share-button/baidu.png (16x16)
@@ -28,6 +34,18 @@
           80x64
 
 */
+
+.social-share-button {
+  display: inline-block;
+  font-size: 40px;
+  a {
+    color: #000;
+    &:hover {
+      color: #00728f;
+    }
+  }
+}
+
 /*
 .social-share-button-baidu { display:inline-block; width: 16px; height: 16px; background: url(image-path('sprites/social-share-button.png')) 0px 0px no-repeat }
 .social-share-button-delicious { display:inline-block; width: 16px; height: 16px; background: url(image-path('sprites/social-share-button.png')) -16px 0px no-repeat }

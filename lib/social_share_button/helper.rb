@@ -23,9 +23,9 @@ module SocialShareButton
     end
 
     def get_icon(name)
-      if google_plus
+      if name == "google_plus"
         return "google-plus"
-      elsif email
+      elsif name == "email"
         return "envelope"
       else
         return name
